@@ -1,19 +1,5 @@
 // https://github.com/komputing/kethabi/issues/6
-val kethereumVersion = "0.84.2"
-
-apply {
-    from("https://raw.githubusercontent.com/ligi/gradle-common/master/versions_plugin_stable_only.gradle")
-}
-
-buildscript {
-    repositories {
-        maven("https://jitpack.io")
-    }
-
-    dependencies {
-        classpath("com.github.ben-manes:gradle-versions-plugin:0.39.0")
-    }
-}
+val kethereumVersion = "0.85.7"
 
 repositories {
     mavenCentral()
